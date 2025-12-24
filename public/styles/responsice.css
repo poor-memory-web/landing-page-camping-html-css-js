@@ -1,0 +1,48 @@
+@media only screen and (min-width : 576px) {
+    .container {
+        /* width: 540px; */
+        width: 54rem;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    .container {
+        /* width: 720px; */
+        width: 72rem;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .container {
+        /* width: 960px; */
+        width: 96rem;
+    }
+}
+
+@media only screen and (min-width : 1200px) {
+    .container {
+        /* width: 1140px; */
+        width: 114rem;
+    }
+}
+
+@media only screen and (min-width : 1400px){
+    .conrainer{
+        /* width: 1370px; */
+        width: 137rem;
+    }
+}
+
+/* @media only screen and (min-width : 1600px){
+    .conrainer{
+        width: 1570px;
+        width: 157rem;
+    }
+}
+
+@media only screen and (min-width : 1900px){
+    .conrainer{
+        width: 1870px;
+        width: 187rem;
+    }
+} */
