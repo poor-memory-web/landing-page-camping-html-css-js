@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "roboto-regular";
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
