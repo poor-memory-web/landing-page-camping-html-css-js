@@ -1,3 +1,7 @@
+:root{
+    --primary : #E76F51
+}
+
 html {
     box-sizing: border-box;
     font-size: 10px;
@@ -33,5 +37,105 @@ a{
 
 
 
-/* --- app css --- */
+/* --- hedaer-menu --- */
 
+
+.header{
+    background: linear-gradient(rgba(59,55,53,0.5), rgba(59,55,53,0.5)), url("../images/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.container{
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: block;
+    height: 5.5rem;
+    width: 5.5rem;
+}
+.logo__img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+.menu__item{
+
+}
+.menu__link{
+
+}
+.login{
+    display: none;
+}
+.login__up{
+
+}
+.login__in{
+
+}
+.login__in--border{
+
+}
+.mobile-menu-login{
+    display: none;
+}
+.mobile-menu__item{
+
+}
+.mobile-menu__link{
+
+}
+.mobile-login{
+
+}
+.mobile-login__up{
+
+}
+.mobile-login__in{
+
+}
+.mobile-login__in--border{
+
+}
+.nav-btn{
+    background-color: #fff;
+    height: 5.5rem;
+    width: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.nab-btn__line{
+    display: block;
+    height: 0.25rem;
+    width: 3rem;
+    background-color: var(--primary);
+    border-radius: 1rem;
+    position: relative;
+}
+
+.nab-btn__line::before,
+.nab-btn__line::after{
+    content: "";
+    position: absolute;
+    height: 0.25rem;
+    width: 3rem;
+    background-color: var(--primary);
+    border-radius: 1rem;
+}
+
+.nab-btn__line::before{
+    top: -0.8rem;
+}
+.nab-btn__line::after{
+    top: 0.8rem;
+}
