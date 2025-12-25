@@ -117,6 +117,7 @@ a {
     background-color: var(--primary);
     border-radius: 1rem;
     position: relative;
+    transition: 150ms all ease-in-out;
 }
 
 .nab-btn__line::before,
@@ -127,6 +128,7 @@ a {
     width: 3rem;
     background-color: var(--primary);
     border-radius: 1rem;
+    transition: 300ms all ease-in-out;
 }
 
 .nab-btn__line::before {
@@ -135,4 +137,16 @@ a {
 
 .nab-btn__line::after {
     top: 0.8rem;
+}
+
+.nav-btn--open .nab-btn__line {
+    background-color: transparent;
+}
+
+.nav-btn--open .nab-btn__line::before {
+    transform: translateY(7.8px) rotate(45deg);
+}
+
+.nav-btn--open .nab-btn__line::after {
+    transform: translateY(-7.8px) rotate(-45deg);
 }
