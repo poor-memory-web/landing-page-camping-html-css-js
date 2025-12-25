@@ -1,5 +1,5 @@
-:root{
-    --primary : #E76F51
+:root {
+    --primary: #E76F51
 }
 
 html {
@@ -13,13 +13,13 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     font-family: "roboto-regular";
     font-size: 1.6rem;
     line-height: 1.6;
 }
 
-.container{
+.container {
     width: 100%;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -29,7 +29,7 @@ body{
 
 /* --- reset style --- */
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -40,71 +40,66 @@ a{
 /* --- hedaer-menu --- */
 
 
-.header{
-    background: linear-gradient(rgba(59,55,53,0.5), rgba(59,55,53,0.5)), url("../images/header-bg.jpg");
+.header {
+    background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../images/header-bg.jpg");
     background-position: center;
     background-size: cover;
 }
-.container{
 
-}
-.nav{
+.container {}
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: block;
     height: 5.5rem;
     width: 5.5rem;
 }
-.logo__img{
+
+.logo__img {
     height: 100%;
     width: 100%;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.menu__item{
 
-}
-.menu__link{
+.menu__item {}
 
-}
-.login{
+.menu__link {}
+
+.login {
     display: none;
 }
-.login__up{
 
-}
-.login__in{
+.login__up {}
 
-}
-.login__in--border{
+.login__in {}
 
-}
-.mobile-menu-login{
+.login__in--border {}
+
+.mobile-menu-login {
     display: none;
 }
-.mobile-menu__item{
 
-}
-.mobile-menu__link{
+.mobile-menu__item {}
 
-}
-.mobile-login{
+.mobile-menu__link {}
 
-}
-.mobile-login__up{
+.mobile-login {}
 
-}
-.mobile-login__in{
+.mobile-login__up {}
 
-}
-.mobile-login__in--border{
+.mobile-login__in {}
 
-}
-.nav-btn{
+.mobile-login__in--border {}
+
+.nav-btn {
     background-color: #fff;
     height: 5.5rem;
     width: 5.5rem;
@@ -114,7 +109,8 @@ a{
     border-radius: 2rem;
     cursor: pointer;
 }
-.nab-btn__line{
+
+.nab-btn__line {
     display: block;
     height: 0.25rem;
     width: 3rem;
@@ -124,7 +120,7 @@ a{
 }
 
 .nab-btn__line::before,
-.nab-btn__line::after{
+.nab-btn__line::after {
     content: "";
     position: absolute;
     height: 0.25rem;
@@ -133,9 +129,10 @@ a{
     border-radius: 1rem;
 }
 
-.nab-btn__line::before{
+.nab-btn__line::before {
     top: -0.8rem;
 }
-.nab-btn__line::after{
+
+.nab-btn__line::after {
     top: 0.8rem;
 }
