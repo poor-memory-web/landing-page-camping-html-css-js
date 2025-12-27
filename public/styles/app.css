@@ -46,8 +46,6 @@ a {
     background-size: cover;
 }
 
-.container {}
-
 .nav {
     display: flex;
     justify-content: space-between;
