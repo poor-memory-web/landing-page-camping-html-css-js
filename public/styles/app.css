@@ -44,6 +44,7 @@ a {
     background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../images/header-bg.jpg");
     background-position: center;
     background-size: cover;
+    min-height: 55rem;
 }
 
 .nav {
@@ -82,20 +83,48 @@ a {
 .login__in--border {}
 
 .mobile-menu-login {
-    display: none;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: -25rem;
+    bottom: 0;
+    width: 25rem;
+    padding: 2.5rem;
+    transition: all ease-in-out 300ms;
 }
 
-.mobile-menu__item {}
+.mobile-menu__item {
+    margin-bottom: 1rem;
+}
 
-.mobile-menu__link {}
+.mobile-menu__link {
+    color: #fff;
+}
 
-.mobile-login {}
+.mobile-login {
+    display: flex;
+    margin-top: 3rem;
+    gap: 1rem;
+}
 
-.mobile-login__up {}
+.mobile-login__item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.mobile-login__in {}
+.mobile-login__link {
+    color: #fff;
+}
 
-.mobile-login__in--border {}
+.mobile-login__link {}
+
+.mobile-login__link--border {}
 
 .nav-btn {
     background-color: #fff;
@@ -115,7 +144,7 @@ a {
     background-color: var(--primary);
     border-radius: 1rem;
     position: relative;
-    transition: 150ms all ease-in-out;
+    transition: 100ms all ease-in-out;
 }
 
 .nab-btn__line::before,
