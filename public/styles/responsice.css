@@ -1,32 +1,32 @@
-@media only screen and (min-width : 57.6rem) {
+@media only screen and (min-width : 576px) {
     .container {
         /* width: 540px; */
         width: 54rem;
     }
 }
 
-@media only screen and (min-width : 76.8rem) {
+@media only screen and (min-width : 768px) {
     .container {
         /* width: 720px; */
         width: 72rem;
     }
 }
 
-@media only screen and (min-width : 99.2rem) {
+@media only screen and (min-width : 992px) {
     .container {
         /* width: 960px; */
         width: 96rem;
     }
 }
 
-@media only screen and (min-width : 120rem) {
+@media only screen and (min-width : 1200px) {
     .container {
         /* width: 1140px; */
         width: 114rem;
     }
 }
 
-@media only screen and (min-width : 140rem){
+@media only screen and (min-width : 1400px){
     .conrainer{
         /* width: 1370px; */
         width: 137rem;
