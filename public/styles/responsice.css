@@ -18,6 +18,10 @@
     .menu {
         display: flex;
     }
+
+    .mobile-menu-login{
+        display: none;
+    }
 }
 
 @media only screen and (min-width : 992px) {

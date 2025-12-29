@@ -130,7 +130,7 @@ a {
     margin-bottom: 1rem;
     padding: 1rem;
     border: 1px solid white;
-    border-radius: 1rem;
+    border-radius: 2rem;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -160,7 +160,7 @@ a {
     display: block;
     height: 0.25rem;
     width: 3rem;
-    background-color: var(--primary);
+    background-color: var(--color-primary);
     border-radius: 1rem;
     position: relative;
     transition: 100ms all ease-in-out;
@@ -172,7 +172,7 @@ a {
     position: absolute;
     height: 0.25rem;
     width: 3rem;
-    background-color: var(--primary);
+    background-color: var(--color-primary);
     border-radius: 1rem;
     transition: 300ms all ease-in-out;
 }
